@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace ExampleConsoleApp
 {
@@ -8,6 +9,7 @@ namespace ExampleConsoleApp
         {
             Console.WriteLine("Hello Anon ORM demo!");
 
+            // this needs to be set to your connection string
             Anon.AnonQuery.ConnectionString = dbSettings.ConnectionString;
 
             var isComplete = 0;
