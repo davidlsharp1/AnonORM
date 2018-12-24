@@ -13,7 +13,7 @@ and t.Complete = 0
 Now in my code I can do:
 
 ```
-var results = await Anon.AnonQuery.Run(SQL);
+var results = Anon.AnonQuery.Run(SQL);
 
 
 foreach (var item in results.Result)  // the code is async so I just do a .Result for a demo
