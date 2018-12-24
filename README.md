@@ -3,6 +3,8 @@ SQL Server ORM for simple cases where you just want to write a SQL query without
 
 This means I can create a simple query that is joining two tables and use the results directly without creating a model with properties for each of the fields to represent the data.
 
+This was a just a test case and I was curious to see if this could be practical.
+
 ```
 select p.FirstName, t.Detail
 from Person p, Todo t
