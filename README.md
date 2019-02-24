@@ -1,5 +1,5 @@
 # AnonORM
-SQL Server ORM for simple cases where you just want to write a SQL query without creating model to represent the results.  AnonORM derives the "model" in memory for the results from the data.  This allows you iterate, etc but unfortunately it is not type safe.
+SQL Server ORM for simple cases where you just want to write a SQL query without creating model to represent the results.  AnonORM derives the "model" in memory for the results from the data.  This allows you iterate, etc but you dont get any intellisense with the objects.
 
 This means I can create a simple query that is joining two tables and use the results directly without creating a model with properties for each of the fields to represent the data.
 
